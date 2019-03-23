@@ -2,7 +2,8 @@
 import os
 import tkinter as tk
 import subprocess
-
+from tkinter import filedialog
+    
 def main():
     """Main program"""
     origin_path = dir_select()
@@ -13,7 +14,6 @@ def main():
 
 def dir_select():
     """Getting the user to select the folder in which the file is located"""
-    from tkinter import filedialog
     root = tk.Tk()
     root.withdraw()
     print("\nPlease select the folder directory where the file is located")
