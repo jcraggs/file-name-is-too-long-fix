@@ -27,7 +27,9 @@ You can check to see which files are in the current directory by typing `dir` an
 
 * Step 2) Type `rename {current directory}\filename newfilename` and press enter.
 
--Where `{current directory}` is the directory file path to the temp_folder on your desktop (should be something like "C:\Users\YOUR NAME\Desktop\temp_folder"
+#### Where:
+
+-`{current directory}` is the directory file path to the temp_folder on your desktop (should be something like "C:\Users\YOUR NAME\Desktop\temp_folder"
 
 -`\filename` is the name of the file you want to access, i.e. the one you just copied across. 
 
