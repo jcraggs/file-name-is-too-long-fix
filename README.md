@@ -11,7 +11,7 @@ Fortunately, command line operations have a max path length of 8191 characters, 
 ## What does this program do? 
 The script works in four stages:
 * Stage 1: Gets the user to select the folder in which the file is located.
-* Stage 2: Displays the files within the selected folder in the python and gets the user to select the specific file they want by typing the number of the file in the python command line.
+* Stage 2: Displays the files within the selected folder in the python terminal and gets the user to select the specific file they want by entering the attributed number of the file in the command line.
 * Stage 3: Creates a temporary folder (called "temp_folder") on the users desktop.
 * Stage 4: Utilises all of the inputs from the previous 3 stages and copies the selected file into the new "temp_folder" via subprocess robocopy.
 
