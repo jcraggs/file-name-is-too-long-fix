@@ -33,7 +33,7 @@ You can check to see which files are in the current directory by typing `dir` an
 
 -`newfilename` is what you want to call the new file e.g "hello_world.txt". Make sure to keep the file format tag (e.g. .txt, .docx, .jpg etc) when you rename the file. 
 
-Note: The file name is case sensitive and any spaces in thefile name must be contained within quotation marks like so: “ ”
+Note: The file name is case sensitive and any spaces in the file name must be contained within quotation marks like so: “ ”
 
 * Step 3) When you press enter after the rename command you should not receive any errors and now should be able to view the file.
 
