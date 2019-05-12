@@ -21,16 +21,20 @@ Note if the filename is still too long to access after being copied to the users
 
 You can do this through the directory:
 
-* Step 1) Open your command prompt with the start menu then navigate to the newly created folder by typing `cd Desktop\temp_folder` and pressing enter. You can check to see which files are in the current directory by typing `dir` and then pressing enter.
+* Step 1) Open your command prompt with the start menu then navigate to the newly created folder by typing `cd Desktop\temp_folder` and pressing enter. 
 
-* Step 2) type `rename {current directory}\filename newfilename`.
->-Where `{current directory}` is the directory file path to the temp_folder on your desktop (should be something like "C:\Users\YOUR NAME\Desktop\temp_folder"
+You can check to see which files are in the current directory by typing `dir` and then pressing enter.
 
->-`\filename` is the name of the file you want to access, i.e. the one you just copied across. 
+* Step 2) Type `rename {current directory}\filename newfilename` and press enter.
 
->-`newfilename` is what you want to call the new file e.g "hello_world.txt". Make sure to keep the file format tag (e.g. .txt, .docx, .jpg etc) when you rename the file. 
+-Where `{current directory}` is the directory file path to the temp_folder on your desktop (should be something like "C:\Users\YOUR NAME\Desktop\temp_folder"
 
->Note: The file name is case sensitive and any spaces in thefile name must be contained within quotation marks like so: “ ”
+-`\filename` is the name of the file you want to access, i.e. the one you just copied across. 
+
+-`newfilename` is what you want to call the new file e.g "hello_world.txt". Make sure to keep the file format tag (e.g. .txt, .docx, .jpg etc) when you rename the file. 
+
+Note: The file name is case sensitive and any spaces in thefile name must be contained within quotation marks like so: “ ”
 
 * Step 3) When you press enter after the rename command you should not receive any errors and now should be able to view the file.
->Getting an error message? You have to make sure that what you type matches the directory exactly , if you don’t it’s likely that the command line will state “The system cannot find the file specified".
+
+Getting an error message? You have to make sure that what you type matches the directory exactly , if you don’t it’s likely that the command line will state “The system cannot find the file specified".
