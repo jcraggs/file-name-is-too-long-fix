@@ -1,5 +1,5 @@
 # file-name-is-too-long-fix
-A python script which copies files rendered inaccessible by the Windows 7/8 max directory path limit to a temporary folder on the user’s desktop thus allowing them to be accessed.
+A python script which copies files rendered inaccessible by the Windows 7/8 max directory path limit, to a temporary folder on the user’s desktop thus shortening the overall file directory length, allowing them to be accessed.
 
 Note: Computers with Windows 10 installed have the ability to enable ‘NTFS Long paths’ which means these systems can handle much longer file directory lengths. If you have Windows 10 installed enabelling ‘NTFS Long paths’ will be a better fix.
 
@@ -17,7 +17,7 @@ The script works in four stages:
 
 
 ## Help: The file name is still too long after being copied to the desktop
-Note if the filename is still too long to access after being copied to the users desktop (means it'll be <200 characters), then you'll need to rename the file to something shorter.
+Note if the filename is still too long to access after being copied to the users desktop (means it'll be >200 characters), then you'll need to rename the file to something shorter.
 
 You can do this through the directory:
 
